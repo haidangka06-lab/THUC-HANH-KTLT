@@ -1,0 +1,5 @@
+chuoi=input("nhap cac so nhi phan(phan tach boi dau phay):")
+ds=chuoi.split(',')
+for b in ds:
+    if int(b,2) % 5 == 0:
+        print(b)
