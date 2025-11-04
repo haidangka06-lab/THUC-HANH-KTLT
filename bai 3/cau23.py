@@ -1,0 +1,5 @@
+s=input("Nhap chuoi:")
+chu=sum(ch.isalpha()for ch in s)
+so=sum(ch.isdigit()for ch in s)
+print("Chu cai:", chu)
+print("Chu so:", so)
