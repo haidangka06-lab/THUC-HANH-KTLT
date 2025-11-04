@@ -1,0 +1,4 @@
+if 'abc' in ds:
+    print("Vi tri cua 'abc'la:", ds.index('abc'))
+esle:
+    print("Khong tim thay 'abc'")
